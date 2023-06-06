@@ -13,7 +13,7 @@ function App() {
       <BrowserRouter>
       <Routes>
 
-        <Route exact path='/' element={<MovieList setMovie={setMovie} />} />
+        <Route exact path='/ReactTask' element={<MovieList setMovie={setMovie} />} />
 
         <Route exact path='/movieSummary' element={<MovieSummary movie={movie} />} />
 
